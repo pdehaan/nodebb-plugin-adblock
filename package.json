@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-plugin-adblock",
+  "version": "0.0.1",
+  "description": "Enable nodebb to detects adblocker.",
+  "main": "lib/library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tailot/nodebb-plugin-adblock"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "adblock"
+  ],
+  "author": {
+    "name": "Vincenzo Tilotta",
+    "email": "tailot@gmail.com"
+  },
+  "nbbpm": {
+    "compatibility": "^1.1.2"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tailot/nodebb-plugin-adblock/issues"
+  }
+}

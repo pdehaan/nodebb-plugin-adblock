@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-adblock",
+	"name": "adblock for nodebb",
+	"description": "Enable nodebb to detects adblocker.",
+	"url": "https://github.com/tailot/nodebb-plugin-adblock",
+	"css": [
+		"public/css/style.css"
+	],
+	"scripts": [
+	  "public/lib/main.js"
+	]
+}
