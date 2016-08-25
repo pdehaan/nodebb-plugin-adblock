@@ -1,8 +1,8 @@
 {
   "name": "nodebb-plugin-adblock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enable nodebb to detects adblocker.",
-  "main": "lib/library.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/tailot/nodebb-plugin-adblock/issues"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
   }
 }

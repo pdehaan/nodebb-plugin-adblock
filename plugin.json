@@ -3,6 +3,13 @@
 	"name": "adblock for nodebb",
 	"description": "Enable nodebb to detects adblocker.",
 	"url": "https://github.com/tailot/nodebb-plugin-adblock",
+    "library": "./index.js",
+    "templates": "templates",
+    "hooks": [
+    	{ "hook": "static:app.load", "method": "init" },
+        { "hook": "filter:admin.header.build", "method": "addAdminNavigation"},
+        { "hook": "action:plugin.deactivate", "method": "deactivateAdblock"}
+    ],
 	"css": [
 		"public/css/style.css"
 	],
